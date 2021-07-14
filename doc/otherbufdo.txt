@@ -1,0 +1,14 @@
+*otherbufdo.txt*  :bufdo, except on current buffer
+
+it's :bufdo, but on every buffer except the current one.
+and it go back the current buffer.
+also it use `execute` so it's Ex commands (:w, :q, :undo) and not normal mode command (dd, u, y)
+https://github.com/mirsella
+
+How to use :
+`Otherbufdo g/idontlikethisline/d`
+`Otherbufdo norm ggO`
+
+see :bufdo
+
+ vim:tw=78:et:ft=help:norl:
